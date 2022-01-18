@@ -4,37 +4,44 @@
 <company>
     <employee>
         <eid>A101</eid>
-        <empname>Jacob M</empname>
-        <empmailid>A101baseline@gmail.com</empmailid>
-        <empphonenum>9148827639</empphonenum>
-        <designation>Designer</designation>
-        <empage>25</empage>
+        <Emp-name>Jacob M</Emp-name>
+        <Emp-age>25</Emp-age>
+        <Emp-salary>58000</Emp-salary>
+        <Emp-mailid>A101baseline@gmail.com</Emp-mailid>
+        <Emp-Phonenum>9148827639</Emp-Phonenum>
+        <Emp-designation>Designer</Emp-designation>
+
     </employee>
 
     <employee>
         <eid>A102</eid>
-        <empname>Ash Mathew</empname>
-        <empmailid>A102baseline@gmail.com</empmailid>
-        <empphonenum>9100997798</empphonenum>
-        <designation>Team Leader</designation>
-        <empage>12</empage>
+        <Emp-name>Ash Mathew</Emp-name>
+        <Emp-age>58</Emp-age>
+        <Emp-salary>88000</Emp-salary>
+        <Emp-mailid>A102baseline@gmail.com</Emp-mailid>
+        <Emp-Phonenum>9100997798</Emp-Phonenum>
+        <Emp-designation>Team Leader</Emp-designation>
+
     </employee>
 
     <employee>
         <eid>A103</eid>
-        <empname>Bhudha P</empname>
-        <empmailid>A103baseline@gmail.com</empmailid>
-        <empphonenum>9800657341</empphonenum>
-        <designation>Designer</designation>
-        <empage>2</empage>
+        <Emp-name>Bhudha P</Emp-name>
+        <Emp-age>22</Emp-age>
+        <Emp-salary>98000</Emp-salary>
+        <Emp-mailid>A103baseline@gmail.com</Emp-mailid>
+        <Emp-Phonenum>9800657341</Emp-Phonenum>
+        <Emp-designation>Designer</Emp-designation>
+
     </employee>
 
     <employee>
         <eid>A104</eid>
-        <empname>Sandria</empname>
-        <empmailid>A104baseline@gmail.com</empmailid>
-        <empphonenum>8935667832</empphonenum>
-        <designation>Designer</designation>
-        <empage>22</empage>
+        <Emp-name>Sandria Thomas</Emp-name>
+        <Emp-age>42</Emp-age>
+        <Emp-salary>78000</Emp-salary>
+        <Emp-mailid>A104baseline@gmail.com</Emp-mailid>
+        <Emp-Phonenum>8935667832</Emp-Phonenum>
+        <Emp-designation>Designer</Emp-designation>
     </employee>
 </company>
