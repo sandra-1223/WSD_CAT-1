@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="company" type="company"></xs:element>
+    <xs:complexType name="company">
+        <xs:sequence>
+            <xs:element name="employee" type="employee" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="employee">
+        <xs:sequence>
+            <xs:element name="eid" type="xs:string"></xs:element>
+            <xs:element name="empname" type="xs:string"></xs:element>
+            <xs:element name="empmailid" type="xs:string"></xs:element>
+            <xs:element name="empphonenum" type="xs:integer"></xs:element>
+            <xs:element name="designation" type="xs:string"></xs:element>
+            <xs:element name="empage" type="xs:integer"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+     
+    <xs:simpleType name="eid">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="5"></xs:maxLength>
+            <xs:pattern value="A([0-9])+"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="empmailid">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="50"></xs:maxLength>
+            <xs:pattern value="[^@]+@[^\.]+\..+"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="empphonenum">
+        <xs:restriction base="xs:string">
+            <xs:length value="10"></xs:length>
+            <xs:pattern value="[0-9]+"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+     <xs:simpleType name="empsalary">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="50000"/>
+            <xs:maxInclusive value="200000"/>
+        </xs:restriction>
+    </xs:simpleType>
+ 
+</xs:schema>
